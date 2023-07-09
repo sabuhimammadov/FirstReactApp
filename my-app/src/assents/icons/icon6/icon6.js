@@ -1,0 +1,1 @@
+export {ReactComponent  as Icon6} from "../icon6/icon6.svg"

@@ -1,0 +1,1 @@
+export {ReactComponent  as Naviqation} from "../naviqation/nav.svg"

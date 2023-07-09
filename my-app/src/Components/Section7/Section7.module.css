@@ -1,0 +1,81 @@
+.section-7{
+    width: 70%;
+    margin: auto;
+     height: 416px;
+     border-radius: 16px;
+background:  #FA7436;
+margin-bottom: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+padding-left: 36px;
+}
+.section-container1{
+width: 90%;
+margin-bottom: 48px;
+margin-left: 28px;
+}
+.section-container2{
+    width: 40%;
+
+}
+.section-title{
+width: 90%;
+    color: #FFF;
+text-align: center;
+font-family: 'Volkhov', serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-container2{
+position: relative;
+margin-left: 8px;
+}
+ .section-input{
+    width: 600px;
+    height: 68px;
+    border-radius: 10px;
+background:  #FFF;
+margin-left: 84px;
+border: none;
+}
+.section-input::placeholder{
+    padding-left: 48px;
+    color:  #999;
+    font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.section-btn{
+    height: 60px;
+border: none;
+    position: absolute;
+    top: 4px;
+right: -300px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #FA7436;
+border-radius: 8px;
+padding: 20px 24px 22px 20px;
+
+} 
+.section-icon{
+    position: absolute;
+    top: 290px;
+    left: 140px;
+}
+.section-icon1{
+    position: absolute;
+    top: 0;
+    z-index: -99;
+}

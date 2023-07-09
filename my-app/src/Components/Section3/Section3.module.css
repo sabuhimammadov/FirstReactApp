@@ -1,0 +1,51 @@
+.section-3{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 100px;
+background-color: #F7F8FC;
+padding-bottom: 36px;
+padding-top: 36px;
+position: relative;
+}
+.section3-title{
+    color: #222;
+    font-family: 'Volkhov', serif;
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+}
+.section3-span{
+    font-family: 'Volkhov', serif;
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px;
+color:#FA7436;
+
+}
+.AllCards{
+    display: flex;
+}
+.myCard{
+    width: 370px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 14px 24px 72px 0px rgba(102, 102, 102, 0.10);
+    margin-right: 16px;
+    padding: 22px;
+}
+.section-3 .paragraf{
+    margin-bottom: 50px;
+}
+.myCard-title{
+
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.icon4{
+    position: absolute;
+    top: 30px;
+    right: 120px;
+}

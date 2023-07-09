@@ -1,0 +1,1 @@
+export {ReactComponent  as Section1Img} from "../sectionImg/section1Img.svg"

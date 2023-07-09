@@ -1,0 +1,1 @@
+export {ReactComponent  as HeaderIcon} from "../../assents/icons/header-icon.svg"

@@ -1,0 +1,1 @@
+export {ReactComponent  as Mail} from "../mail/mail.svg"

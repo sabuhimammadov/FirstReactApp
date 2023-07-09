@@ -1,36 +1,59 @@
 import React from "react";
-
+import { HeaderIcon } from "../assents/icons";
+import { BtnInfo } from "../ui/button/button";
+import { SimpleBtn } from "../ui/simpleBtn/button";
+// import headerIcon from  "../assents/icons/header-icon.svg"
 class Header extends React.Component{
-    render (){
 
-        return (
+render(){
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+return(
+<header>
+<div className="container">
+
+
+    <div className="d-flex justify-content-between align-items-center">
+
+    <div className="logo-content d-flex align-items-center">
+   <h2 className="me-2">Trabook</h2>
+   <HeaderIcon/>
+   </div>
+
+
+<nav className="mt-3"> 
+<ul className="d-flex "> 
+    <li className="me-4">Home</li>
+    <li className="me-4">About</li>
+    <li className="me-4">Destination</li>
+    <li className="me-4">Tour</li>
+    <li className="me-4">Blog</li>
+
+</ul>
 </nav>
-            
-        )
-    }
+<SimpleBtn/>
+<BtnInfo/>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</header>
+
+
+)
+
+
+}
+
+
 }
 export default Header

@@ -1,0 +1,17 @@
+.section6{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F8FC;
+    margin-bottom: 120px;
+    padding-top: 24px;
+    padding-bottom: 42px;
+}
+.section6-slider{
+    width: 30%;
+}
+
+.icon-color{
+    color: yellow;
+}
+
+

@@ -1,0 +1,37 @@
+.right-section{
+    position: relative;
+}
+.right-section .postion1{
+    padding-top: 5px;
+    position: absolute;
+    top: 200px;
+    right: -40px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.05);
+}
+.right-section .postion1-info{
+    margin-left: 5px;
+}
+.postion1_info{
+    margin-bottom: 0;
+}
+
+.postion1_paragraf{
+
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.postion1-picture{
+width: 70%;
+    position: absolute;
+    top: -90px;
+    right: -80px;
+}
